@@ -1,17 +1,14 @@
-In this project, I’m building an AI-powered Code Explainer Mini-App from scratch.
+### CodeEsplainer ###
 
-Here’s what i went through:
+In this project, I built an AI-powered Code Explainer Mini-App from scratch.
 
-Design the application and plan the architecture
+Here’s what I went through:
 
-Configure an Express.js backend with a REST endpoint that sends code snippets to an LLM
+- Designed the application and planned the architecture
+- Configured an Express.js backend with a REST endpoint that sends code snippets to an LLM
+- Built a modern frontend using React 19 (with Vite + TailwindCSS)
+- Integrated React 19’s new features like useActionState and Server Actions
+- Handled API responses: formatted output, managed loading states and errors
+- Tested and validated the backend API using Postman
 
-Build a modern frontend using React 19 (with Vite + TailwindCSS)
-
-Integrate React 19’s new features like useActionState and Server Actions
-
-Handle API responses: format output, manage loading and errors
-
-Test the backend API using Postman
-
-By the end: i got a working tool where you input any code snippet and get a clear, beginner-friendly explanation back
+By the end, I had a fully working tool where you can input any code snippet and get a clear, beginner-friendly explanation in return.
